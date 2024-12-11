@@ -3,7 +3,7 @@
 Plugin Name: LuckyWP Cookie Notice (GDPR)
 Plugin URI: https://theluckywp.com/product/cookie-notice-gdpr/
 Description: The plugin allows you to notify visitors about the use of cookies (necessary to comply with the GDPR in the EU).
-Version: 1.2
+Version: 1.2.1
 Author: LuckyWP
 Author URI: https://theluckywp.com/
 License: GPLv2 or later
@@ -31,6 +31,6 @@ $lwpcngAutoloader->register();
 $lwpcngAutoloader->addNamespace('luckywp\cookieNoticeGdpr', __DIR__);
 
 $config = require(__DIR__ . '/config/plugin.php');
-(new \luckywp\cookieNoticeGdpr\plugin\Plugin($config))->run('1.2', __FILE__, 'lwpcng_');
+(new \luckywp\cookieNoticeGdpr\plugin\Plugin($config))->run('1.2.1', __FILE__, 'lwpcng_');
 
 require_once __DIR__ . '/functions.php';

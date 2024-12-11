@@ -3,8 +3,8 @@ Contributors: theluckywp
 Donate link: https://theluckywp.com/product/cookie-notice-gdpr/
 Tags: cookie, notice, GDPR, eu cookie law, cookie law
 Requires at least: 4.7
-Tested up to: 5.5
-Stable tag: 1.2
+Tested up to: 6.7
+Stable tag: 1.2.1
 Requires PHP: 5.6.20
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -69,6 +69,9 @@ After the plugin is successfully installed the menu item "Cookie Notice (GDPR)" 
 5. Advanced Settings
 
 == Changelog ==
+
+= 1.2.1 — 2024-12-11 =
+* Fix "LuckyWP Plugins" page.
 
 = 1.2 — 2020-08-15 =
 * Added field for scripts added after opening <body>.
